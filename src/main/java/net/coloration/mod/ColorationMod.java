@@ -22,7 +22,7 @@ public class ColorationMod implements ModInitializer {
         for (String color : COLORS) {
            Identifier rainbow = new Identifier("colorationmod", color);
            Block.Settings blockSettings = FabricBlockSettings.of(Material.STONE).breakByHand(true).sounds(BlockSoundGroup.STONE).strength(2, 0.5f).build();
-           Block sun = new ColorfulBlock(blockSettings);
+           Block sun = new Block(blockSettings);
            Item.Settings itemSettings = new  Item.Settings().group(ItemGroup.BUILDING_BLOCKS);
            BlockItem sunItem = new BlockItem(sun, itemSettings);
             Registry.register(Registry.BLOCK, rainbow, sun);
