@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:dandelion"
+        },
+        "R": {
+            "item": "colorationmod:blonde"
+        }
+    },
+    "result": {
+        "item": "colorationmod:daffodil",
+        "count": 1
+    }
+}

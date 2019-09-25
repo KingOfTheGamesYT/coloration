@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:blue_orchid"
+        },
+        "R": {
+            "item": "minecraft:purple_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:orchid",
+        "count": 1
+    }
+}

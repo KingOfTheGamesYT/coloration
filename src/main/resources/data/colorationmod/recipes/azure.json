@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        " W "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:azure_bluet"
+        },
+        "R": {
+            "item": "minecraft:white_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:azure",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        " C "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:blaze_powder"
+        },
+        "R": {
+            "item": "minecraft:water_bucket"
+        },
+        "C": {
+            "item": "minecraft:white_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:cloud",
+        "count": 1
+    }
+}

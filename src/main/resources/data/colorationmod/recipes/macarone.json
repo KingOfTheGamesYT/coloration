@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:cookie"
+        },
+        "R": {
+            "item": "minecraft:orange_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:macarone",
+        "count": 1
+    }
+}

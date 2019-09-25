@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:allium"
+        },
+        "R": {
+            "item": "minecraft:purple_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:eggplant",
+        "count": 1
+    }
+}

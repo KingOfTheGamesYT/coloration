@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:clay"
+        },
+        "R": {
+            "item": "minecraft:flint_and_steel"
+        }
+    },
+    "result": {
+        "item": "colorationmod:smoke",
+        "count": 1
+    }
+}

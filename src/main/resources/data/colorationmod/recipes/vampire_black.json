@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "colorationmod:blood"
+        },
+        "R": {
+            "item": "colorationmod:midnight"
+        }
+    },
+    "result": {
+        "item": "colorationmod:vampire_black",
+        "count": 1
+    }
+}

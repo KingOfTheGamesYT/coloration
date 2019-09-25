@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "colorationmod:navy"
+        },
+        "R": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "colorationmod:aquamarine",
+        "count": 1
+    }
+}

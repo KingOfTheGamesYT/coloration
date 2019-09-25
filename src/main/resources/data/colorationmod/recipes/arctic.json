@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:ice"
+        },
+        "R": {
+            "item": "minecraft:white_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:arctic",
+        "count": 1
+    }
+}
