@@ -1,36 +1,37 @@
 {
   "schemaVersion": 1,
-  "id": "colorationmod",
-  "version": "1.2.7",
+  "id": "muid",
+  "version": "1.0.0-12.11.2020-1.16.4-fabric",
 
-  "name": "Coloration Mod",
-  "description": "Adds 107 different solid colored blocks!",
+  "name": "MUID",
+  "description": "For finding the total id's of popular ids",
   "authors": [
     "Mysticpasta1"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/Mysticpasta1/Most-Used-IDs"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/colorationmod/icon.png",
+  "icon": "assets/muid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.coloration.mod.ColorationMod"
+      "com.mystic.muid.Main"
     ]
   },
   "mixins": [
-    
+    "coloration.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.4.0",
-    "fabric": "*"
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
   },
   "suggests": {
-    "flamingo": "*"
+    "another-mod": "*"
   }
 }
