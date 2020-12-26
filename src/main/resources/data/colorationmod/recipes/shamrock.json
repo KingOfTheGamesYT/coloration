@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:emerald"
+        },
+        "R": {
+            "item": "minecraft:green_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:shamrock",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "colorationmod:walnut"
+        },
+        "R": {
+            "item": "minecraft:oak_wood"
+        }
+    },
+    "result": {
+        "item": "colorationmod:hickory",
+        "count": 1
+    }
+}

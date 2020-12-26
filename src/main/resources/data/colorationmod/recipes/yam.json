@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        " Y "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:sugar"
+        },
+        "R": {
+            "item": "minecraft:orange_concrete"
+        },
+        "Y": {
+            "item": "minecraft:potato"
+        }
+    },
+    "result": {
+        "item": "colorationmod:yam",
+        "count": 1
+    }
+}

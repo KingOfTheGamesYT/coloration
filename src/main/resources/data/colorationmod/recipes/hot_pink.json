@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:blaze_powder"
+        },
+        "R": {
+            "item": "minecraft:pink_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:hot_pink",
+        "count": 1
+    }
+}

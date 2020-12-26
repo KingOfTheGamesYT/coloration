@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "colorationmod:mint"
+        },
+        "R": {
+            "item": "minecraft:green_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:basil",
+        "count": 1
+    }
+}

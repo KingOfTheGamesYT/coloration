@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " C ",
+        " R "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:egg"
+        },
+        "R": {
+            "item": "minecraft:milk_bucket"
+        },
+        "C": {
+            "item": "minecraft:white_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:eggnog",
+        "count": 1
+    }
+}

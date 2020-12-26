@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:oak_wood"
+        },
+        "R": {
+            "item": "colorationmod:forest"
+        }
+    },
+    "result": {
+        "item": "colorationmod:pine",
+        "count": 1
+    }
+}

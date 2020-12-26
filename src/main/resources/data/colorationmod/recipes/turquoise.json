@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        " W "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:scute"
+        },
+        "R": {
+            "item": "minecraft:cyan_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:turquoise",
+        "count": 1
+    }
+}

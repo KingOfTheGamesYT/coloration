@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:sea_pickle"
+        },
+        "R": {
+            "item": "minecraft:green_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:pickle",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:orange_concrete"
+        },
+        "R": {
+            "item": "minecraft:black_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:tiger",
+        "count": 1
+    }
+}

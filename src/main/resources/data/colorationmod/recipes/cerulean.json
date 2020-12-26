@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "colorationmod:sky_blue"
+        },
+        "R": {
+            "item": "minecraft:blue_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:cerulean",
+        "count": 1
+    }
+}

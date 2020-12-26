@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:pink_tulip"
+        },
+        "R": {
+            "item": "minecraft:purple_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:periwinkle",
+        "count": 1
+    }
+}

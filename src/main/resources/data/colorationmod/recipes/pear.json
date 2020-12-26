@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        " D "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:apple"
+        },
+        "R": {
+            "item": "minecraft:green_concrete"
+        },
+        "D": {
+            "item":"minecraft:glass_bottle"
+        }
+    },
+    "result": {
+        "item": "colorationmod:pear",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:red_concrete_powder"
+        },
+        "R": {
+            "item": "minecraft:white_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:rouge",
+        "count": 1
+    }
+}

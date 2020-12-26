@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        " C "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:oak_wood"
+        },
+        "R": {
+            "item": "minecraft:sugar"
+        },
+        "C": {
+            "item":"minecraft:white_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:cinnamon",
+        "count": 1
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:popped_chorus_fruit"
+        },
+        "R": {
+            "item": "minecraft:red_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:lipstick",
+        "count": 1
+    }
+}

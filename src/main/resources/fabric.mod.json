@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "muid",
-  "version": "1.0.0-12.11.2020-1.16.4-fabric",
+  "id": "colorationmod",
+  "version": "12.26.2020-1.16.4-1.0.0-fabric",
 
-  "name": "MUID",
-  "description": "For finding the total id's of popular ids",
+  "name": "Coloration",
+  "description": "Adds 107 different solid colored blocks!",
   "authors": [
     "Mysticpasta1"
   ],
   "contact": {
-    "homepage": "",
-    "sources": "https://github.com/Mysticpasta1/Most-Used-IDs"
+    "homepage": "https://mystic.hypherionmc.me/",
+    "sources": "https://github.com/Mysticpasta1/coloration"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/muid/icon.png",
+  "icon": "assets/colorationmod/logo.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.mystic.muid.Main"
+      "com.mystic.colorationmod.ColorationMod"
     ]
   },
   "mixins": [

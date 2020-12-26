@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " W ",
+        " R ",
+        "   "
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "R": {
+            "item": "minecraft:blue_concrete"
+        }
+    },
+    "result": {
+        "item": "colorationmod:persian_blue",
+        "count": 1
+    }
+}
