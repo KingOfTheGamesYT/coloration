@@ -105,5 +105,7 @@
     "block.colorationmod.cornflower_blue": "cornflower blue",
     "block.colorationmod.aquamarine": "aquamarine",
     "block.colorationmod.persian_blue": "persian blue",
-    "block.colorationmod.turquoise": "turquoise"
+    "block.colorationmod.turquoise": "turquoise",
+
+    "itemGroup.blocks": "Coloration"
 }
