@@ -1,0 +1,43 @@
+modLoader="javafml"
+
+loaderVersion="[36,)"
+
+license="CC0-1.0"
+
+issueTrackerURL="https://github.com/KingOfTheGamesYT/coloration/issues"
+
+[[mods]]
+
+configBackground="colorationmod:textures/block/amber.png"
+
+modId="colorationmod"
+
+version="1.0.0"
+
+displayName="Coloration"
+
+displayURL="https://legacy.curseforge.com/minecraft/mc-mods/coloration-mod"
+
+logoFile="logo.png"
+
+credits="Thanks for this mod goes to Mysticpasta1 for making every version except 1.16.5 Forge"
+
+authors=["RedRoseWarrior1 aka DevMaster1015"]
+
+description='''Adds 107 different solid colored blocks!'''
+
+# Base Forge
+[[dependencies.colorationmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+# Base Minecraft
+[[dependencies.colorationmod]]
+    modId="minecraft"
+    mandatory=true
+versionRange="[1.16.5,1.17]"
+    ordering="NONE"
+    side="BOTH"
