@@ -1,8 +1,8 @@
 modLoader="javafml"
 
-loaderVersion="[36,)"
+loaderVersion="[43,)"
 
-license="CC0-1.0"
+license="LGPLv3"
 
 issueTrackerURL="https://github.com/KingOfTheGamesYT/coloration/issues"
 
@@ -16,7 +16,7 @@ version="1.0.0"
 
 displayName="Coloration"
 
-displayURL="https://legacy.curseforge.com/minecraft/mc-mods/coloration-mod"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/coloration-mod"
 
 logoFile="logo.png"
 
@@ -30,7 +30,7 @@ description='''Adds 107 different solid colored blocks!'''
 [[dependencies.colorationmod]]
     modId="forge"
     mandatory=true
-    versionRange="[36,)"
+    versionRange="[43,)"
     ordering="NONE"
     side="BOTH"
 
@@ -38,6 +38,6 @@ description='''Adds 107 different solid colored blocks!'''
 [[dependencies.colorationmod]]
     modId="minecraft"
     mandatory=true
-versionRange="[1.16.5,1.17]"
+versionRange="[1.19.2,1.19.3]"
     ordering="NONE"
     side="BOTH"

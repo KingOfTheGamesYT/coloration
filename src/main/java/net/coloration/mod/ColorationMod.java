@@ -1,8 +1,8 @@
 package net.coloration.mod;
 
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -29,10 +29,9 @@ public class ColorationMod {
     private void doClientStuff(final FMLClientSetupEvent event) {
     }
 
-    public static final ItemGroup BLOCKS = new ItemGroup("blocks") {
-
+    public static final CreativeModeTab BLOCKS = new CreativeModeTab("blocks") {
         @Override
-        public ItemStack createIcon() {
+        public ItemStack makeIcon() {
             return new ItemStack(Items.BLUE_DYE);
         }
     };

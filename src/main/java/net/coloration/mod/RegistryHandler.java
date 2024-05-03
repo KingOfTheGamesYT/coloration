@@ -1,12 +1,11 @@
 package net.coloration.mod;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.*;
-
-import net.minecraftforge.fml.RegistryObject;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class RegistryHandler {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ColorationMod.MOD_ID);
@@ -16,6 +15,9 @@ public class RegistryHandler {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
+
+    public static final RegistryObject<Block> ANCHOR = BLOCKS.register("anchor", BlockColorBlock::new);
+    public static final RegistryObject<Item> ANCHOR_ITEM = ITEMS.register("anchor", () -> new BlockItemBase(ANCHOR.get()));
     public static final RegistryObject<Block> AMBER = BLOCKS.register("amber", BlockColorBlock::new);
     public static final RegistryObject<Item> AMBER_ITEM = ITEMS.register("amber", () -> new BlockItemBase(AMBER.get()));
     public static final RegistryObject<Block> APRICOT = BLOCKS.register("apricot", BlockColorBlock::new);
